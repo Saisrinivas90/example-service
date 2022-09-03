@@ -4,6 +4,6 @@ FROM node:16
 
  COPY package*.json .
 
- RUN yum install
+ RUN npm install
  COPY . .
  CMD node app.js
